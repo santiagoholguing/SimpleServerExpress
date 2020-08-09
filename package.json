@@ -1,0 +1,15 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "ejemplo",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js"
+  },
+  "author": "Santi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "httpdispatcher": "^2.1.2"
+  }
+}
