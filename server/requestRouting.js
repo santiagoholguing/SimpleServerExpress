@@ -19,6 +19,11 @@ Router.get('/dashboard', function(req, res){
 
 })
 
+Router.get('/santiago', function(req, res){
+  res.sendFile(viewsPath + 'santiago.html')
+
+})
+
 Router.all('/*', function(req, res){
   res.send('no se encontro el recurso solicitado')
   res.end()
